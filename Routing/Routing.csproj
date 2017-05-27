@@ -73,7 +73,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\canvas.css" />
+    <Content Include="css\chart.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="index_dygraph.html" />
     <Content Include="index.html" />
     <Content Include="scripts\angular-mocks.js" />
     <None Include="scripts\angular.intellisense.js" />
@@ -123,9 +126,7 @@
       <Name>WebAPIController</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="css\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
